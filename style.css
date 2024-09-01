@@ -1,0 +1,71 @@
+body {
+  font-size: 20px;
+  margin: 20px 80px;
+  font-family: 'Roboto Slab', serif;
+  background-image: url('/images/world_cup.jpeg');
+}
+.companyLogo {
+  width: 100%;
+  font-size: 2rem;
+}
+.companyLogo h1 {
+  float: right;
+  margin: 0;
+}
+.heading {
+  width: 100%;
+  margin: 2.5rem 0;
+  clear: right;
+}
+.heading h1 {
+  margin: 0;
+  font-size: 4rem;
+  text-shadow: 0.2rem 0.2rem 0.2rem grey;
+}
+.heading p {
+  font-size: 2rem;
+  color: #837878;
+  margin: 0;
+}
+table {
+  width: 70%;
+}
+table tr {
+  height: 3rem;
+  border-bottom: 1px solid #d1cece;
+}
+table, th, td {
+  border-collapse: collapse;
+  padding: 1rem;
+}
+td:nth-child(3) {
+  text-align: center;
+}
+td:nth-child(4) {
+  text-align: center;
+}
+td:nth-child(5) {
+  text-align: center;
+}
+td:nth-child(6) {
+  text-align: center;
+}
+td:nth-child(7) {
+  text-align: center;
+}
+.innings {
+  background-color: red;
+  color: #fff;
+}
+.cricName {
+  color: blue;
+}
+.status {
+  color: grey;
+}
+footer {
+  margin: 2.5rem 0;
+}
+.heart {
+  color: red;
+}
