@@ -1,8 +1,12 @@
 body {
   font-size: 20px;
   margin: 20px 80px;
-  font-family: 'Roboto Slab', serif;
-  background-image: url('/images/world_cup.jpeg');
+  font-family: Arial, sans-serif;
+}
+.container {
+  background: url('/home/vakilsearch/Videos/HTML-learnings/images/world_cup.jpeg') no-repeat right bottom;
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
 }
 .companyLogo {
   width: 100%;
@@ -29,6 +33,8 @@ body {
 }
 table {
   width: 70%;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 table tr {
   height: 3rem;
@@ -63,7 +69,7 @@ td:nth-child(7) {
 .status {
   color: grey;
 }
-footer {
+.footer {
   margin: 2.5rem 0;
 }
 .heart {
